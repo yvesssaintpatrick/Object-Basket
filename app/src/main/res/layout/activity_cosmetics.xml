@@ -1,0 +1,178 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cosmetics">
+
+    <TextView
+        android:id="@+id/Cosmetics"
+        android:layout_width="250dp"
+        android:layout_height="39dp"
+        android:text="Cosmetics"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewTheme"
+        android:layout_width="71dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="56dp"
+        android:text="Theme"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageTheme1"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Theme 1"
+        android:src="@drawable/theme1"
+        app:layout_constraintEnd_toStartOf="@+id/imageTheme2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTheme" />
+
+    <ImageView
+        android:id="@+id/imageTheme2"
+        android:layout_width="106dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Theme 2"
+        android:src="@drawable/theme2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTheme" />
+
+    <ImageView
+        android:id="@+id/imageTheme3"
+        android:layout_width="102dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Theme 3"
+        android:src="@drawable/default_theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageTheme2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTheme" />
+
+    <TextView
+        android:id="@+id/textViewBasket"
+        android:layout_width="69dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:text="Basket"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTheme1" />
+
+
+    <ImageView
+        android:id="@+id/imageBasket1"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Basket 1"
+        android:src="@drawable/basket1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBasket" />
+
+    <ImageView
+        android:id="@+id/imageBasket2"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Basket 2"
+        android:src="@drawable/basket2"
+        app:layout_constraintEnd_toStartOf="@+id/imageBasket3"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/imageBasket1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBasket" />
+
+    <ImageView
+        android:id="@+id/imageBasket3"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Basket 3"
+        android:src="@drawable/default_basket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBasket" />
+
+    <TextView
+        android:id="@+id/textViewObjects"
+        android:layout_width="69dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="260dp"
+        android:text="Objects"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTheme1" />
+
+    <ImageView
+        android:id="@+id/imageObject1"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="Sports"
+        android:src="@drawable/sports"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewObjects" />
+
+    <ImageView
+        android:id="@+id/imageObject2"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="HouseHold"
+        android:src="@drawable/household"
+        app:layout_constraintEnd_toStartOf="@+id/imageBasket3"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/imageBasket1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewObjects" />
+
+    <ImageView
+        android:id="@+id/imageObject3"
+        android:layout_width="103dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/item_background"
+        android:contentDescription="fruits"
+        android:src="@drawable/fruits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewObjects" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

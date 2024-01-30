@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ObjectBasket</string>
+    <string name="start_button">Start_Button</string>
+    <string name="cosmetics_button">Cosmetics_Button</string>
+    <string name="settings_button">Setting_Button</string>
+    <string name="main_menu_background_description">Main Menu Background</string>
+    <string name="game_background_description">Main Menu Background</string>
+</resources>
