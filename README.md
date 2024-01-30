@@ -1,5 +1,5 @@
 Object Basket Game
-
+Team Members: Jackie Yang, Shawn Lartey, Josh Fahlman
 Project Overview
 
 Welcome to the Object Basket Game repository! As a Software Engineer specializing in Android App Development, I led the development of this exciting mobile game, utilizing Java and the Android SDK to deliver a captivating gaming experience.
@@ -26,6 +26,7 @@ Key Achievements
 
 Successfully developed and delivered a feature-rich mobile gaming application that adheres to design specifications, enhancing user engagement and experience.
 Demonstrated expertise in software engineering principles, resulting in a scalable, maintainable, and efficient codebase for the game's functionalities.
+
 Showcase of Competencies
 
 This project serves as a testament to my strong competencies in:
